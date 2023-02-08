@@ -8,16 +8,25 @@
   --bl-dark: #051930;
 }
 
-a {
-  text-decoration: none;
-  color: var(--bl-light);
-}
 /* CSS RESET */
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bl-light);
+}
+
+figure {
+  width: 100px;
+}
+
+img {
+  max-width: 100%;
 }
 /* #endregion Common */
 
@@ -40,17 +49,12 @@ a {
 nav ul {
   list-style: none;
   gap: 1rem;
-  
 }
 
-figure {
-  width: 100px;
+#app-header div {
+  color: var(--bl-ligher);
+  cursor: pointer;
 }
-
-img {
-  max-width: 100%;
-}
-
 /* #endregion Header */
 
 /* #region Main */
