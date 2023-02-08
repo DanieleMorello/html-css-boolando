@@ -45,9 +45,9 @@ img::after {
 }
 
 .container {
-  width: calc(100% / 12 * 8 + 93px);
-  border: 3px solid red;
-  margin: 2rem auto;
+  width: 70%;
+  max-width: 1152px;
+  margin: 7rem auto;
 }
 
 .wrap {
@@ -56,6 +56,18 @@ img::after {
 
 .d-none {
   display: none;
+}
+
+.pl-sm {
+  padding-left: .5rem;
+}
+
+.pr-sm {
+  padding-right: .5rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
 }
 /* #endregion Utility Classes */
 
@@ -98,22 +110,22 @@ nav ul {
 .discount {
   background-color: #ff0000;
   position: absolute;
-  bottom: 26px;
+  bottom: 29px;
   left: 0;
 }
 
 .sustainability {
   background-color: #008000;
   position: absolute;
-  bottom: 26px;
-  left: 33px;
+  bottom: 29px;
+  left: 40px;
 }
 
 .discount,
 .sustainability {
   color: #fff0e4;
-  padding: .3rem;
-  font-size: 9.5px;
+  padding: 5.5px;
+  font-size: 11px;
 } 
 
 .price {
