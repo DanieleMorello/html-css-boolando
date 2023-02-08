@@ -103,6 +103,28 @@ nav ul {
   width: calc(100% / 12 * 4);
 }
 
+.img_a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.photo:hover > .img_a {
+  visibility: hidden;
+}
+
+.photo:hover > .img_b {
+  visibility: visible;
+}
+
+.photo > .img_b {
+  visibility: hidden;
+}
+
+.heart:hover {
+  color: red;
+}
+
 .sale {
   position: relative;
 }
@@ -119,6 +141,12 @@ nav ul {
   position: absolute;
   bottom: 29px;
   left: 40px;
+}
+
+#sustainability {
+  position: absolute;
+  bottom: 29px;
+  left: 0;
 }
 
 .discount,
