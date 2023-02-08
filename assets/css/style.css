@@ -1,0 +1,32 @@
+/* #region Common */
+/* Root */
+:root
+{
+  --bl-shadow: #9d9d9d;
+  --bl-light: #f7f8f8;
+  --bl-ligher: #ffffff;
+  --bl-dark: #051930;
+}
+
+/* CSS RESET */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #endregion Common */
+
+/* #region Utility Classes */
+/* #endregion Utility Classes */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
+
+
