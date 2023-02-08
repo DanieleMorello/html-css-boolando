@@ -6,6 +6,7 @@
   --bl-light: #f7f8f8;
   --bl-ligher: #ffffff;
   --bl-dark: #051930;
+  --bl-font: "Helvetica Now", Helvetica, Arial, sans-serif;
 }
 
 /* CSS RESET */
@@ -14,6 +15,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--bl-font);
 }
 
 a {
@@ -28,6 +33,10 @@ figure {
 img {
   max-width: 100%;
 }
+
+img::after {
+
+}
 /* #endregion Common */
 
 /* #region Utility Classes */
@@ -41,6 +50,13 @@ img {
   margin: 2rem auto;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.d-none {
+  display: none;
+}
 /* #endregion Utility Classes */
 
 /* #region Header */
@@ -64,7 +80,7 @@ nav ul {
 
 /* #region Main */
 .col-4 {
-  width: calc(100% / 12 * 3);
+  width: calc(100% / 12 * 4);
 }
 
 .sale {
@@ -100,6 +116,15 @@ nav ul {
   position: relative;
 }
 
+
+.card:hover > .d-none {
+  display: block;
+}
+
+.card:hover > .heart {
+  color: #ff0000;
+}
+
 .heart {
   background-color: var(--bl-ligher);
   padding: .5rem;
@@ -115,6 +140,21 @@ p {
 /* #endregion Main */
 
 /* #region Footer */
+#app-footer {
+  background-color: #1a1a1a;
+  color: var(--bl-light);
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.info {
+  list-style: none;
+}
+
+.info,
+#app-footer div:last-child {
+  gap: 1rem;
+}
 /* #endregion Footer */
 
 
