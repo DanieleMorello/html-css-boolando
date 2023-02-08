@@ -8,6 +8,10 @@
   --bl-dark: #051930;
 }
 
+a {
+  text-decoration: none;
+  color: var(--bl-light);
+}
 /* CSS RESET */
 *
 {
@@ -18,9 +22,35 @@
 /* #endregion Common */
 
 /* #region Utility Classes */
+.d-flex {
+  display: flex;
+}
+
+
 /* #endregion Utility Classes */
 
 /* #region Header */
+#app-header {
+  background-color: #ff6900;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  gap: 1rem;
+  
+}
+
+figure {
+  width: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* #endregion Header */
 
 /* #region Main */
