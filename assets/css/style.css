@@ -35,6 +35,11 @@ img {
   display: flex;
 }
 
+.container {
+  width: calc(100% / 12 * 8 + 80px);
+  border: 3px solid red;
+  margin: 2rem auto;
+}
 
 /* #endregion Utility Classes */
 
@@ -58,6 +63,55 @@ nav ul {
 /* #endregion Header */
 
 /* #region Main */
+.col-4 {
+  width: calc(100% / 12 * 3);
+}
+
+.sale {
+  position: relative;
+}
+
+.discount {
+  background-color: #ff0000;
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+}
+
+.sustainability {
+  background-color: #008000;
+  position: absolute;
+  bottom: 26px;
+  left: 33px;
+}
+
+.discount,
+.sustainability {
+  color: #fff0e4;
+  padding: .3rem;
+  font-size: 9.5px;
+} 
+
+.price {
+  color: #ff0814;
+}
+
+.card {
+  position: relative;
+}
+
+.heart {
+  background-color: var(--bl-ligher);
+  padding: .5rem;
+  text-align: center;
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+p {
+  font-size: 10px;
+}
 /* #endregion Main */
 
 /* #region Footer */
