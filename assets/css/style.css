@@ -123,6 +123,7 @@ nav ul {
 
 .heart:hover {
   color: red;
+  font-size: 2rem;
 }
 
 .sale {
