@@ -1,7 +1,6 @@
 /* #region Common */
 /* Root */
-:root
-{
+:root {
   --bl-shadow: #9d9d9d;
   --bl-light: #f7f8f8;
   --bl-ligher: #ffffff;
@@ -10,8 +9,7 @@
 }
 
 /* CSS RESET */
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,10 +30,6 @@ figure {
 
 img {
   max-width: 100%;
-}
-
-img::after {
-
 }
 /* #endregion Common */
 
@@ -59,11 +53,11 @@ img::after {
 }
 
 .pl-sm {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 
 .pr-sm {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-3 {
@@ -93,8 +87,6 @@ nav ul {
 #app-header div {
   color: var(--bl-ligher);
   cursor: pointer;
- 
-
 }
 /* #endregion Header */
 
@@ -155,7 +147,7 @@ nav ul {
   color: #fff0e4;
   padding: 5.5px;
   font-size: 11px;
-} 
+}
 
 .price {
   color: #ff0814;
@@ -164,7 +156,6 @@ nav ul {
 .card {
   position: relative;
 }
-
 
 .card:hover > .d-none {
   display: block;
@@ -176,7 +167,7 @@ nav ul {
 
 .heart {
   background-color: var(--bl-ligher);
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
   position: absolute;
   top: 6px;
@@ -205,5 +196,3 @@ p {
   gap: 1rem;
 }
 /* #endregion Footer */
-
-
