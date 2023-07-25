@@ -5,6 +5,10 @@
   --bl-light: #f7f8f8;
   --bl-ligher: #ffffff;
   --bl-dark: #051930;
+  --bl-heart: #ff0000;
+  --bl-price: #ff0814;
+  --bl-sustainability: #008000;
+  --bl-header: #ff6900;
   --bl-font: "Helvetica Now", Helvetica, Arial, sans-serif;
 }
 
@@ -67,7 +71,7 @@ img {
 
 /* #region Header */
 #app_header {
-  background-color: #ff6900;
+  background-color: var(--bl-header);
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
@@ -114,7 +118,7 @@ nav ul {
 }
 
 .heart:hover {
-  color: red;
+  color: var(--bl-heart);
   font-size: 2rem;
 }
 
@@ -123,14 +127,14 @@ nav ul {
 }
 
 .discount {
-  background-color: #ff0000;
+  background-color: var(--bl-heart);
   position: absolute;
   bottom: 29px;
   left: 0;
 }
 
 .sustainability {
-  background-color: #008000;
+  background-color: var(--bl-sustainability);
   position: absolute;
   bottom: 29px;
   left: 40px;
@@ -150,7 +154,7 @@ nav ul {
 }
 
 .price {
-  color: #ff0814;
+  color: var(--bl-price);
 }
 
 .card {
@@ -162,7 +166,7 @@ nav ul {
 }
 
 .card:hover > .heart {
-  color: #ff0000;
+  color: var(--bl-heart);
 }
 
 .heart {
