@@ -1,2 +1,2 @@
-# html-css-boolando
-... Ottavo esercizio Boolean ...
+# Boolando
+
